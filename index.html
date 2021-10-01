@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Weather @ yourcity</title>
+    <link rel="shortcut icon"  type="x-icon" href="images/rain.png">
+    <script src="script.js" defer></script>
+    <script src="goeloc.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="script.js" defer></script>
+  
+    <div class="card">
+      <div class="search">
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Enter your city name"
+        />
+        <button>
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            height="1.5em"
+            width="1.5em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g>
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path
+                d="M11 2c4.968 0 9 4.032 9 9s-4.032 9-9 9-9-4.032-9-9 4.032-9 9-9zm0 16c3.867 0 7-3.133 7-7 0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7zm8.485.071l2.829 2.828-1.415 1.415-2.828-2.829 1.414-1.414z"
+              ></path>
+            </g>
+          </svg>
+        </button>
+      </div>
+      <div class="weather loading">
+        <h2 class="city">Weather in Gurgaon</h2>
+        <h1 class="temp">45&degC</h1>
+        <div class="flex">
+          <img src="https://openweathermap.org/img/wn/04n.png"" alt="" class="icon" />
+          <div class="description">Cloudy</div>
+        </div>
+        <div class="humidity">Humidity : 60%</div>
+        <div class="wind">Wind speed : 6.2 km/h</div>
+        <div class="terms">*data provided by openweather.org</div>
+      
+      </div>
+    </div>
+
+    
+    <footer class="copy">
+      <div class="copyright">
+        <p>&copy; 2021 All rights reserved</p>
+      </div>
+     
+    </footer>
+  </body>
+</html>
