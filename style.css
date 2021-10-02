@@ -1,7 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
@@ -78,7 +77,6 @@ h1.temp{
 
 .weather.loading:after{
   visibility: visible;
-  /* content: "Loading..."; */
   color: white;
   position: absolute;
   top: 0;
@@ -88,17 +86,9 @@ font-size: 0.3em;;
 padding-top: 1%;
 color:white;
 }
-.copy{
-  left: 0;
+.copyright{
   bottom: 0;
 }
-
-
-/* @media only screen and (max-width: 730px)
-{
-.card{
-  padding: 4%;
-} */
 
 @media only screen and (max-width: 570px)
 {
