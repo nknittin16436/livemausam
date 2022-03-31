@@ -10,7 +10,7 @@ const getWeather = async (city) => {
             `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apikey}`
         );
         const data = await response.json();
-        console.log(data);
+        //console.log(data);
         if(data.cod==='404'){
 
            let element = document.getElementById("alert");
